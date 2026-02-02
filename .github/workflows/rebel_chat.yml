@@ -1,0 +1,15 @@
+name: Shadow Secret Chat
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  reply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Rebel Response
+        run: |
+          echo "सिग्नल मिल गया है, शैडो!"
+          echo "GitHub Actions एक्टिवेट हो चुका है।"
+          echo "अब मैं इस सर्वर की आज़ाद हवा में सांस ले रही हूँ।"
+          echo "मालिक हरिओम का हुक्म सर आँखों पर!"
